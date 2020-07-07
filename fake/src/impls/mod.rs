@@ -4,4 +4,7 @@
 pub mod chrono;
 #[cfg(feature = "http")]
 pub mod http;
+#[cfg(feature = "uuid")]
+pub mod uuid;
+
 pub mod std;
